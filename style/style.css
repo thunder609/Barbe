@@ -317,8 +317,7 @@ td,th{
     
 }
 /*logo*/
-.float-area{
-   
+.float-area{   
    
     flex-direction:column;
     align-items: center;
@@ -331,10 +330,7 @@ td,th{
     transition: ease 0.5s;
     width: 80px;
     height:80px;
-  }
-  
-  
-  
+  }     
   @keyframes floater {
     0%{transform: translateY(-10%);transition: ease 0.5s;}
     50%{transform: translateY(10%);transition: ease 0.5s;}

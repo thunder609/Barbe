@@ -75,7 +75,7 @@ nav a:hover{
 }
 footer{
    text-align: center;
-   background-image: url("/imagenespro/bg.jpg");
+   background-image: url('imagenespro/bg.jpg');
    padding: 40px;
 }
 .copyright{

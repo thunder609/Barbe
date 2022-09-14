@@ -327,6 +327,7 @@ td,th{
       }
       
       .floating-img{
+        height: 20vh;
         transform: translateY(-40%);
         animation: floater 2.5s infinite;
         transition: ease 2.5s;

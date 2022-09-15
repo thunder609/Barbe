@@ -2,7 +2,7 @@ body{
     font-family: 'Roboto', sans-serif; 
 }
 header{
-    background-color: #BBBBBB;
+    /* background-color: #BBBBBB; */
     padding: 20px 0;
 }
 .caja{
@@ -143,9 +143,23 @@ td,th{
 }
 
 /*Css  para nuestra pagina inicial index home */
-.banner{
+.header{
     width: 100%;
-}
+
+    animation: animateBg 20s linear infinite;
+    background-image: radial-gradient(#cf5c5c,#c19b4a,#def2a0,#c6ee4a,#42eca6,#64b3d9,#208ea2,#498ada,#5b73df,#897ed3,#cf5c5c,#c19b4a);
+    background-size: 100% 1100%;
+ 
+    width: 100vw;
+  }
+  @keyframes animateBg {
+    0% { background-position: 0% 0%; }
+    100% { background-position: 0% 100%; }
+  }
+  .banner{
+    width: 100%;
+
+  }
 .principal{
     width: 940px;
     margin: 0 auto;

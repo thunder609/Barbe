@@ -265,12 +265,10 @@ td,th{
 }
 @media only screen and (min-width:320px) and (max-width:480px){
     .header{
-        width: 100%;
-    
+        width: 100%;    
         animation: animateBg 20s linear infinite;
-        background-image: radial-gradient(#cf5c5c,#c19b4a,#def2a0,#c6ee4a,#42eca6,#64b3d9,#208ea2,#498ada,#5b73df,#897ed3,#cf5c5c,#c19b4a);
-        background-size: 100% 1100%;
-     
+        background-image: radial-gradient(#696868,#c19b4a,#def2a0,#c6ee4a,#8a8f8d,#d0d6d9,#acbabd,#498ada,#5b73df,#897ed3,#cf5c5c,#c19b4a);
+        background-size: 100% 1100%;     
         width: 100vw;
       }
     h2{

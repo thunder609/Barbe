@@ -146,7 +146,7 @@ td,th{
 .header{
     width: 100%;
 
-    animation: animateBg 60s linear infinite;
+    animation: animateBg 70s linear infinite;
     background-image: radial-gradient(#e6970e 20%,#cce01a,#def2a0,#c6ee4a,#42eca6 30%,#64b3d9 ,#208ea2,#498ada,#5b73df,#e5e4eb,#565553);
     background-size: 100% 1100%;
  
@@ -265,11 +265,17 @@ td,th{
 }
 @media only screen and (min-width:320px) and (max-width:480px){
     .header{
-        width: 100%;    
-        animation: animateBg 20s linear infinite;
-        background-image: radial-gradient(#696868,#c19b4a,#def2a0,#c6ee4a,#8a8f8d,#d0d6d9,#acbabd,#498ada,#5b73df,#897ed3,#cf5c5c,#c19b4a);
-        background-size: 100% 1100%;     
+        width: 100%;
+    
+        animation: animateBg 70s linear infinite;
+        background-image: radial-gradient(#e6970e 20%,#cce01a,#def2a0,#c6ee4a,#42eca6 30%,#64b3d9 ,#208ea2,#498ada,#5b73df,#e5e4eb,#565553);
+        background-size: 100% 1100%;
+     
         width: 100vw;
+      }
+      @keyframes animateBg {
+        0% { background-position: 0% 0%; }
+        100% { background-position: 0% 100%; }
       }
     h2{
         text-align: center;

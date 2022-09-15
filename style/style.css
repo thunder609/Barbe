@@ -146,8 +146,8 @@ td,th{
 .header{
     width: 100%;
 
-    animation: animateBg 50s linear infinite;
-    background-image: radial-gradient(#c0d125 20%,#cce01a,#def2a0,#c6ee4a,#42eca6 30%,#64b3d9 ,#208ea2,#498ada,#5b73df,#897ed3,#c19b4a);
+    animation: animateBg 60s linear infinite;
+    background-image: radial-gradient(#e6970e 20%,#cce01a,#def2a0,#c6ee4a,#42eca6 30%,#64b3d9 ,#208ea2,#498ada,#5b73df,#e5e4eb,#565553);
     background-size: 100% 1100%;
  
     width: 100vw;

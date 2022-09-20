@@ -401,19 +401,9 @@ td,th{
      align-items: center;
    
       }
-      .svg-cover {
-        display: flex;
-        margin-top: -40px;
-       justify-content:right;
-        margin-left: 100px;
-       
-   
-   
-      }
+    
       
-      .svg-area {
-        height: 220px;
-      }
+     
 }
 /*logo*/
 .float-area{   

@@ -397,14 +397,18 @@ td,th{
       
       }
       .Developer{
-       position: relative;
+    
      align-items: center;
    
       }
       .svg-cover{
-        width: auto;
-       height: 90px;
+    
+
         margin-left: 50px;
+        overflow: hidden;
+      }
+      .svg-area {
+        height: 535px;
       }
 }
 /*logo*/

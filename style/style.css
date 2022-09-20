@@ -405,7 +405,7 @@ td,th{
         display: flex;
         margin-top: -40px;
        justify-content:right;
-        margin-left: 60px;
+        margin-left: 70px;
        
    
    
@@ -442,9 +442,9 @@ td,th{
   
   .svg-cover {
     display: flex;
-    margin-top: -50px;
+    margin-top: -40px;
    justify-content:right;
-    margin-left: 60px;
+    margin-left: 0px;
     width: 100%;
   
     overflow: hidden;

@@ -396,6 +396,16 @@ td,th{
         align-content: space-around;
       
       }
+      .Developer{
+       position: relative;
+     align-items: center;
+   
+      }
+      .svg-cover{
+        width: auto;
+       height: 90px;
+        margin-left: 50px;
+      }
 }
 /*logo*/
 .float-area{   

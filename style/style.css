@@ -401,14 +401,18 @@ td,th{
      align-items: center;
    
       }
-      .svg-cover{
-    
-
-        margin-left: 50px;
-        overflow: hidden;
+      .svg-cover {
+        display: flex;
+        margin-top: -40px;
+       justify-content:right;
+        margin-left: 60px;
+       
+   
+   
       }
+      
       .svg-area {
-        height: 535px;
+        height: 220px;
       }
 }
 /*logo*/

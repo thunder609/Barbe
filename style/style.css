@@ -296,7 +296,7 @@ td,th{
  
    
     }
- .video .imegemDiferencial{
+  .imegemDiferencial{
   display: block;
         width: 95%;
    margin: auto 0;
@@ -309,6 +309,12 @@ td,th{
     .mapa-contenido{
      width: 300px;
      margin-bottom: 2px;
+    }
+    .video{
+      width: 300px;
+      border-radius: 20px;
+      transition:400ms;
+      box-shadow:10px 10px 30px 25px #554e4e;
     }
     .productos{
         width: auto;
